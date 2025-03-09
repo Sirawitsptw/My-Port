@@ -5,6 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background-color: black;
   perspective: 1000px;
 }
