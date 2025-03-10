@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/My-Port/static/css/main.2dd6f35c.css",
+    "main.js": "/My-Port/static/js/main.c08eb190.js",
+    "static/js/453.1407b060.chunk.js": "/My-Port/static/js/453.1407b060.chunk.js",
+    "static/media/card.glb": "/My-Port/static/media/card.cd5e1d9decf69bc5301b.glb",
+    "static/media/lanyard.png": "/My-Port/static/media/lanyard.18bbbb3db709dcbe71b8.png",
+    "index.html": "/My-Port/index.html",
+    "main.2dd6f35c.css.map": "/My-Port/static/css/main.2dd6f35c.css.map",
+    "main.c08eb190.js.map": "/My-Port/static/js/main.c08eb190.js.map",
+    "453.1407b060.chunk.js.map": "/My-Port/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dd6f35c.css",
+    "static/js/main.c08eb190.js"
+  ]
+}
