@@ -18,6 +18,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.3",
+    "react-simple-typewriter": "^5.0.1",
     "react-typing-effect": "^2.0.5",
     "tar": "^7.4.3",
     "three": "^0.173.0",

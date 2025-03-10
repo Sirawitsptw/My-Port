@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 import './nav.css';
 
 export default function Nav({ scrollToSection, aboutRef, projectsRef, skillsRef, contactRef }) {
