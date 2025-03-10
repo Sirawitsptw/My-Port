@@ -1,15 +1,16 @@
 import React from 'react';
-import './about.css';
+// import './about.css';
 
 const About = () => {
     return (
-        <section className="about" id="about">
-            <div className="about-content">
-                <div className="about-text">
-                    <p>Hello</p>
+        <div className='about'>
+            <div className='container'>
+                <div className='col-2'>
+                    <span className='line'></span>
+                    <p style={{color : 'white'}}>Helllo</p>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 
