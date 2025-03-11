@@ -36,15 +36,15 @@ export default function Homepage() {
     }, [charIndex, isDeleting, wordIndex]);
 
     return (
-        <section className="text">
+        <section className="text" id = 'home'>
             <h1>
                 Hi, I am{" "}
                 <span style={{ fontWeight: "bold", color: "#0088cc" }}>{text}</span>
                 <span style={{ color: "#0088cc" }}>|</span>
             </h1>
-            <Link to="projects" smooth={true} duration={500} className="btn">
-                See My Project
-            </Link>
+            <button className="btn"> 
+                DOWNLOAD RESUME
+            </button>
         </section>
     );
 }

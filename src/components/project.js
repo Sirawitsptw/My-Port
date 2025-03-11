@@ -1,14 +1,14 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import './project.css';
 
-const Projects = forwardRef((props, ref) => {
+const Projects = () => {
     return (
-        <section className="projects" ref={ref}>
-            <h2>ผลงานของฉัน</h2>
-            <div className="project-grid">
+        <div className='project' id = 'project'>
+            <div className='container'>
+                    <p>Helllo</p>
             </div>
-        </section>
+        </div>
     );
-});
+};
 
 export default Projects;
