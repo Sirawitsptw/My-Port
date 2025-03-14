@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./homepage.css";
-import { Link } from "react-scroll";
 
 const words = ["Sirawit Sriprathumwong", "Student at KMUTNB"];
 
@@ -42,9 +41,9 @@ export default function Homepage() {
                 <span style={{ fontWeight: "bold", color: "#0088cc" }}>{text}</span>
                 <span style={{ color: "#0088cc" }}>|</span>
             </h1>
-            <button className="btn"> 
+            {/* <button className="btn"> 
                 DOWNLOAD RESUME
-            </button>
+            </button> */}
         </section>
     );
 }

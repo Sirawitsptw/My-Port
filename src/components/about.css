@@ -1,0 +1,162 @@
+.about {
+    background-color: #000;
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.col-2 {
+    flex-basis: 48%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0088cc;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 30px 0 15px;
+    color: #0088cc;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.skills-container {
+    margin: 20px 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #0088ff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.skill:hover {
+    background-color: #0066cc;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 136, 255, 0.3);
+}
+
+.button {
+    background-color: #0088ff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0066cc;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 136, 255, 0.3);
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    
+    .col-2 {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .profile-img {
+        margin-bottom: 30px;
+    }
+}
+
+.education-timeline {
+    margin: 30px 0;
+    align-items: center;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 100%;
+    width: 2px;
+    background-color: #0088ff;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -37px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #0088ff;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px #0088ff;
+}
+
+.timeline-date {
+    font-weight: bold;
+    color: #0088ff;
+    margin-bottom: 5px;
+}
+
+.timeline-content {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.timeline-content p {
+    margin: 0 0 5px 0;
+    color: #666;
+}
