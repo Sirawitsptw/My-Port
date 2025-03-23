@@ -3,11 +3,10 @@ import './about.css';
 
 const About = () => {
     return (
-        <div className='about' id = 'about'>
+        <div className='about'>
             <div className='container'>
                 <div className='col-2'>
-                    <h2>About Me</h2> 
-                    <div className='education-timeline'>
+                    <div className='education-timeline' id = 'about'>
                         <h3>Education</h3>
                         <div className='timeline'>
                             <div className='timeline-item'>
@@ -31,18 +30,22 @@ const About = () => {
                         </div>
                     </div>
                     
-                    <p>Hello! My name is Sirawit Sriprathumwong (Palm) </p>
-                    <p></p>
-                    
                     <div className='skills-container'>
                         <h3>My Skills</h3>
                         <div className='skills'>
+                            <div className='skill'>HTML</div>
+                            <div className='skill'>CSS</div>
                             <div className='skill'>JavaScript</div>
-                            <div className='skill'>HTML/CSS</div>
+                            <div className='skill'>React</div>
+                            <div className='skill'>PHP</div>
+                            <div className='skill'>Tailwind</div>
+                            <div className='skill'>Bootstrap</div>
                             <div className='skill'>Java</div>
-                            <div className='skill'>C/C++</div>
+                            <div className='skill'>C</div>
                             <div className='skill'>PHP</div>
                             <div className='skill'>Dart</div>
+                            <div className='skill'>Firebase</div>
+                            <div className='skill'>Git</div>
                         </div>
                     </div>
                     <button className='button'>Download Resume</button>
