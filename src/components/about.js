@@ -42,7 +42,6 @@ const About = () => {
                             <div className='skill'>Bootstrap</div>
                             <div className='skill'>Java</div>
                             <div className='skill'>C</div>
-                            <div className='skill'>PHP</div>
                             <div className='skill'>Dart</div>
                             <div className='skill'>Firebase</div>
                             <div className='skill'>Git</div>

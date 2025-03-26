@@ -7,31 +7,31 @@ const Projects = () => {
             id: 1,
             title: "Mobile Application For Bying Funiture with AR",
             description: "A personal portfolio website built with React to showcase my projects and skills.",
-            technologies: ["Dart", "Flutter", "JavaScript", "React", "CSS", "Firebase"],
+            technologies: ["Dart", "Flutter", "Firebase" , "Augmented Reality"],
             image: "/images/portfolio.jpg",
-            github: "https://github.com/yourusername/portfolio",
+            github: "https://github.com/Sirawitsptw/project_furniture_app.git",
         },
         {
             id: 2,
-            title: "Shoe E-Commerce Website",
+            title: "Website for managing products",
             description: "A full-stack e-commerce application with product listing, cart functionality, and payment integration.",
-            technologies: ["React", "Node.js", "MongoDB", "Express"],
+            technologies: ["React", "Node.js", "Firebase"],
             image: "/images/ecommerce.jpg",
-            github: "https://github.com/yourusername/ecommerce",
+            github: "https://github.com/Sirawitsptw/project_furniture_web.git",
         },
         {
             id: 3,
-            title: "Webboard",
+            title: "Shoe Ecommerce Website",
             description: "A weather application that provides real-time weather information based on location.",
-            technologies: ["JavaScript", "HTML/CSS", "Weather API"],
+            technologies: ["PHP", "HTML/CSS", "MySQL"],
             image: "/images/weather.jpg",
             github: "https://github.com/yourusername/weather-app",
         }
     ];
 
     return (
-        <div className='project' id='project'>
-            <div className='container'>
+        <div className='project'>
+            <div className='container' id='project'>
                 <h2>My Projects</h2>
                 <div className='projects-grid'>
                     {projects.map((project) => (
